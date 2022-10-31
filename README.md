@@ -12,9 +12,11 @@
 숫자 이미지를 Tesorflow의 EfficientNetB0 모델을 사용하여 분류하였고, 알파벳 이미지는 직접 층을 쌓은 모델을 사용하여 분류하였습니다.
 
 ### OpenCV를 활용한 Hand Detection과 Real Time
-<img width="70%" src="https://user-images.githubusercontent.com/100760303/198923028-3c528b09-3ce8-4c4d-af7c-397e55d45bf3.png"/>
+<img width="70%" src="https://user-images.githubusercontent.com/100760303/198994526-b82b6217-9f45-4f1b-ae4f-694799418fdb.PNG"/>
+<img width="70%" src="https://user-images.githubusercontent.com/100760303/198994599-dc4940e5-e39c-46c4-a83b-94e0199c95a0.PNG"/>
+<br>
 
-다운 받은 이미지 데이터만으로는 실시간 예측을 할 때 성능이 나아지지 않는다는 문제점을 발견하였습니다. 따라서 OpenCV를 활용해 Hand Detection으로 수화 제스쳐의 모션을 따고 해당 이미지들을 직접 촬영하고 수집하여 모델링을 다시 진행하였습니다. 그 결과 실시간으로 수화를 예측할 때 성능이 좋아진 것을 확인할 수 있었습니다.
+다운 받은 이미지 데이터만으로는 실시간 예측을 할 때 성능이 나아지지 않는다는 문제점을 발견하였습니다. 따라서 OpenCV를 활용해 Hand Detection으로 수화 제스쳐의 모션을 따고 해당 이미지들을 직접 촬영하고 수집하여 모델링을 다시 진행하였습니다. 그 결과 실시간으로 수화를 예측할 때 성능이 좋아진 것을 확인할 수 있었습니다. 위의 두 사진이 직접 수집한 이미지 데이터입니다.
 
 <br>
 
